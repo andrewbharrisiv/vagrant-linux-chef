@@ -1,0 +1,10 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'build-essential', :git => 'git://github.com/opscode-cookbooks/build-essential.git'
+cookbook 'yum', :git => 'git://github.com/opscode-cookbooks/yum.git'
+cookbook 'apache2', :git => 'git://github.com/opscode-cookbooks/apache2.git'
+cookbook 'php', :git => 'git://github.com/opscode-cookbooks/php.git'
+cookbook 'mysql', :git => 'git://github.com/opscode-cookbooks/mysql.git'
+cookbook 'rvm', :git => 'git://github.com/fnichol/chef-rvm.git'
+cookbook 'nodejs', :git => 'git://github.com/mdxp/nodejs-cookbook.git'
+cookbook 'composer', :git => 'git://github.com/escapestudios-cookbooks/composer.git'
